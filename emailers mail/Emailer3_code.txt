@@ -49,56 +49,31 @@
         }
 
         .inner-padding {
-            padding: 20px;
+            padding: 0px 45px;
         }
 
         .text-center {
             text-align: center;
         }
 
-        .hero {
-            background-image: url('http://cdn.mcauto-images-production.sendgrid.net/2c198dcb94d92bdf/371def24-e48f-4143-8963-e7bd2ca07dd4/4523x2991.png');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            text-align: left;
-            color: white;
-        }
-
-        .hero-title {
-            font-size: 3.5rem;
-            font-weight: bold;
-            padding-left: 5%;
-            padding-top: 5%;
-            color: white;
-        }
-
         .social-icons img {
             margin-right: 10px;
         }
 
-        p,
-        a {
+        p {
             color: #282541;
             font-size: 18px;
         }
 
-        @media (max-width:460px) {
-            .hero-title {
-                font-size: 2rem;
-                padding-top: 8%;
-            }
+        #arabic-table {
+            font-size: 20px;
+        }
 
-            .hero {
-                height: 200px !important;
-            }
+        @media(max-width:460px) {
 
-            /* p {
+            p,
+            a {
                 font-size: 20px;
-            } */
-
-            .customer_main {
-                font-size: 16px !important;
             }
         }
     </style>
@@ -106,37 +81,57 @@
 
 <body>
     <center class="wrapper">
+        <!-- English Template -->
         <table class="main" width="100%">
-            <!-- Hero Section with Background Image -->
+            <!-- Hero Image Section with Logos -->
             <tr>
-                <td>
-                    <a href="https://alfapay.go.link/4WRWJ">
-                        <img src="http://cdn.mcauto-images-production.sendgrid.net/b42d2e38242a84fb/95e6f618-5a1a-4dd7-a515-b27862589c69/4523x3070.png"
-                            alt="" width="100%">
-                    </a>
-                </td>
-            </tr>
-            <!-- Body Content -->
-            <tr>
-                <td class="inner-padding">
-                    <p class="text-center">Dear [User],</p>
-                    <p class="text-center">It’s almost time! We’ve been working on something truly special, and we can
-                        hardly contain our
-                        <span
-                            style="color: #76BF44; font-weight: bold;">E<sub>X</sub>C<sub>I</sub>T<sub>E</sub>M<sub>E</sub>N<sub>T</sub></span>.
-                    </p>
-                    <p class="text-center">All we’ll say for now is that it’s going to completely redefine your money
-                        remittance experience. Curious? It won't be long.</p>
-                    <p class="text-center">
-                        <span style="color: #76BF44; font-weight: bold;">Tomorrow</span>, all will be revealed—and trust
-                        us, you don’t want to miss this! Get ready to be amazed!
-                    </p>
+                <td style="padding: 0;">
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                        <!-- Hero Image Row -->
+                        <tr>
+                            <td>
+                                <a href="https://alfardanexchange.com/alfapay">
+                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/b42d2e38242a84fb/946f53c6-55bd-424b-bcea-bb740cebcc0d/4500x1793.png"
+                                        alt="Hero" width="600">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
             </tr>
 
-            <!-- Footer Section -->
+
+            <!-- Intro Text -->
             <tr>
-                <td class="inner-padding text-center">
+                <td class="inner-padding">
+                    <!-- <p class="">Dear [User],</p> -->
+                    <p class="">We would like to inform you of a recent update to the AlfaPay service fee
+                        structure. As part of our commitment to providing exceptional service and
+                        improving our offerings, we have made adjustments to the transaction fees,
+                        effective from [Effective Date].</p>
+                    <!-- <p class="" style="font-size: 2rem; color: #282541; font-weight: bold;line-height: 0px;">What’s New?
+                    </p> -->
+                    <p class="">Please rest assured that these changes are aimed at maintaining our
+                        high-quality services and ensuring a seamless experience for all our users.</p>
+                    <p class="">For a detailed breakdown of the new fee structure, please refer to the
+                        [link or attachment] or visit AlfaPay app.</p>
+                    <p class="">If you have any questions or need further assistance, feel free to contact
+                        our support team at [support email/number].</p>
+                </td>
+            </tr>
+
+            <!-- Closing Message -->
+            <tr>
+                <td>
+                    <h1 style="color: #13A538 ; font-size: 35px;padding-left: 45px;">Thank you for your continued
+                        trust and support.
+                    </h1>
+                </td>
+            </tr>
+
+            <!-- Regards Section -->
+            <tr>
+                <td class="" style="padding: 0px 45px;">
                     <p style="color: rgb(96, 93, 93);">Best Regards,<br>The AlfaPay Team</p>
                 </td>
             </tr>
@@ -165,11 +160,11 @@
                 <td align="center" style="padding: 10px 0;">
                     <table align="center">
                         <tr>
-                            <td><a href="https://alfapay.go.link/4WRWJ" target="_blank"><img
+                            <td><a href="https://alfapay.go.link/abxPE" target="_blank"><img
                                         src="http://cdn.mcauto-images-production.sendgrid.net/b42d2e38242a84fb/0a4c9e3b-f6a0-4e70-a0b2-a2d52dabfe74/671x238.png"
                                         alt="Apple Store" width="130"></a></td>
                             <td style="width: 20px;">&nbsp;</td>
-                            <td><a href="https://alfapay.go.link/63YAB"><img
+                            <td><a href="https://alfapay.go.link/9HpNL"><img
                                         src="http://cdn.mcauto-images-production.sendgrid.net/b42d2e38242a84fb/3df01f54-bd26-4779-865a-7ef001e17f84/671x231.png"
                                         alt="Google Play" width="130"></a></td>
                         </tr>
@@ -195,10 +190,6 @@
                             <td style="padding-top: 20px;"><img
                                     src="http://cdn.mcauto-images-production.sendgrid.net/b42d2e38242a84fb/02e202e9-eaa4-4707-a5f2-fd92558b971d/129x90.png"
                                     alt="Email" width="20"></td>
-                            <!-- <td style="padding-left: 10px; color: rgb(96, 93, 93);">
-                                <p style="display: inline-block;" class="customer_main">
-                                    customercare@alfardanexchange.com</p>
-                            </td> -->
                             <td style=" color: rgb(96, 93, 93);padding-left: 10px; padding-top: 20px;">
                                 <a style="display: inline-block;text-decoration: none;color: #282541;"
                                     href="mailto:help@alfapay.com">help@alfapay.com</a>
